@@ -1,0 +1,130 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+
+#btn,#btn1{
+    color: white;
+    background-color:#F08010 ;
+    padding: 10px 35px;
+    font-size: 17px;
+    font-weight: 500;
+    border:2px solid white;
+    border-radius: 20px;
+    transition: all 0.5s;
+}
+#btn1{
+    position: fixed;
+    bottom: 30px;
+    right: 0;
+}
+#btn:hover,#btn1:hover{
+    color: #F08010;
+    border:2px solid #F08010 ;
+    background-color: white;
+    transform: scale(1.1);
+}
+/* header start */
+header{
+    height: 70px;
+    box-shadow: 0px -4px 15px 7px black;
+}
+header .container-lg .col img{
+    height: 70px;
+}
+header h2{
+    color: #0292E1;
+    font-weight: bold;
+    line-height: 70px;
+   font-size: 36px;
+    text-align: right;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+/* header end */
+/* banner start */
+#banner{
+    background: linear-gradient(to right,#091F6E,#1C51C5);
+}
+#banner .col-md-6 h1{
+    color: white;
+    font-size: 50px;
+}
+#banner #img{
+    text-align: end;
+}
+#banner .col-md-6 img{
+    height: 400px;
+}
+/* banner end */
+/* course start */
+#course h2{
+    font-weight: bold;
+    color: #0292E1;
+    text-align: center;
+    font-size: 36px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+#course .container .box{
+    box-shadow: 0px 0px 6px 4px #f08010;
+    border-radius: 30px 0px;
+    transition: all 0.5s;
+}
+#course .container .box:hover{
+    box-shadow: 0px 0px 8px 8px #55b10a;
+    transform: scale(1.1);
+}
+/* course end */
+/* location start */
+#location .box{
+    border: 2px dashed #0292E1;
+    height: 200px;
+}
+/* location end */
+/* footer start */
+footer{
+    background-color: black;
+    color: white;
+    line-height: 50px;
+    height: 50px;
+    text-align: center;
+}
+footer h2{
+    line-height: 50px;
+}
+/* footer end */
+/*max-width 992px  */
+@media screen and (max-width:992px) {
+    #banner .col-md-6 h1{
+        font-size:40px ;
+    }
+}
+/*max-width 992px  */
+/*max-width 768px  */
+@media screen and (max-width:768px) {
+    header h2{
+        font-size: 25px;
+    }
+    #banner #img{
+        text-align: center;
+    }
+}
+/*max-width 768px  */
+/*max-width 576px  */
+@media screen and (max-width:576px) {
+    header h2{
+        font-size: 20px;
+    }
+    #banner .col-md-6 h1{
+        font-size:30px ;
+    }
+    footer h2{
+        font-size: 20px;
+    }
+    
+}
+/*max-width 576px  */
